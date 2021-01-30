@@ -1,0 +1,84 @@
+
+body { 
+  font-family: Courier new;
+	font-size: 18px;
+	font-weight: 400;
+  line-height: 1.8;
+  background-color: #BCB0A1;
+  
+}
+img { margin: 35%; height: 1000 px; width: 1000 px; margin-top: 100px;}
+
+
+.button { background-color: #482317; border: .1px solid #BCB0A1; color: #ffffff; display: inline-block; font-size: 18px; font-weight: 600; margin: 0; padding: 12px 32px 14px 32px; text-decoration: none; text-transform: uppercase; }
+.button:hover { background-color: #BCB0A1; color: #000000; }
+
+.site-header { background-color: #BCB0A1; margin: .1%; }
+
+nav a { color: black; display: inline-block; margin: 0 4px; text-decoration: none; }
+nav a:first-child { margin: 0 4px 0 0; }
+
+main { margin: 0 5%; }
+
+.home-page { display: grid; font-size: 24px; grid-template-columns: 50% 50%; line-height: 1.4; margin: 2em auto 0 auto; max-width: 45em; padding: 0; }
+.home-page h1 { font-size: 1em; margin: 4em 0 0 0; }
+.home-page .button { margin: 1em 0; }
+h1 {
+	font-family: Courier New;
+  font-size: 3em;
+  
+}
+
+h2 {
+	font-family: Courier New;
+  font-size: 1em;
+  color: #985836;
+  
+}
+
+h3 {
+	font-family: Times New Roman;
+  font-size: 1.6em;
+  color: #985836;
+  
+}
+
+
+.container {
+  display: flex;
+  width: 100%;
+  padding: 5% 5%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: 1s;
+  margin: 0 5%;
+  box-shadow: 0 10px 10px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.box > span {
+  font-size: 3vh;
+  display: block;
+  text-align: center;
+  height: 3vh;
+  line-height: 3;
+}
+
+.box > img {
+  width: 100px;
+  height: 400px;
+  object-fit: cover; 
+  transition: .3s;
+}
+
+
+.box:hover { flex: 2 2 30%; }
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}

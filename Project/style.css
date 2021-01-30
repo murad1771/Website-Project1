@@ -1,0 +1,57 @@
+    body {
+        background-image: linear-gradient(#BCB0A1, aliceblue);
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 120px;
+        color:aliceblue;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+    
+    .heading {
+        color: #482317;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    p {
+        color: #985836;
+        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .pharagraph {
+        padding: 60px;
+    }
+
+    .img-heading {
+        width: 1000px;
+        position: relative;
+    }
+
+    .fade 
+    {
+        animation: fadeEffect 3.5s; 
+    }
+
+    @keyframes fadeEffect { 
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+
+    p:hover {
+        outline: 2px solid white;
+    }
+
+    h2:hover {
+        border-radius: 25px;
+        border: 2px solid #482317;
+    }
+
